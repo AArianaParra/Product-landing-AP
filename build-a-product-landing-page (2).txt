@@ -1,0 +1,322 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product landing project</title>
+    <link rel="stylesheet" href="styles.css">
+     <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+  </head>
+  <body>
+      <header id="header">
+       <div id="head-img-name">
+        <img  id="header-img" src="https://storage.tameson.com/asset/Articles/general/valve-symbol-actuator-manual.png">
+
+        <h1 id="web-header">VANNE</h1>
+       </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#home">HOME</a></li>
+            <li><a class="nav-link" href="#about-us">ABOUT US</a></li>
+            <li><a class="nav-link" href="#catalogue">CATALOGUE</a></li>
+                      <li><a class="nav-link" href="#how-it-works">HOW IT WORKS</a></li>
+            <li><a class="nav-link" href="#contact-us">CONTACT US</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+      <section id="home">
+        <div id="empty-container"></div>
+        <h1 class="section-title">HOME</h1>
+        <h2 id="home-subtitle">High Quality and Integrity Valve Solutions for the Oil & Gas market</h2>
+        <img  class="home-img" src="https://images.unsplash.com/photo-1588011930968-eadac80e6a5a?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+      </section>
+      <section id="about-us">
+        <div id="empty-container"></div>
+        <h1 class="section-title">ABOUT US</h1>
+        <h2>About Vanne - Corporate Mission & Values</h2>
+        <p>Our goal is to offer the best service and  deliver optimal results</p><br><br>
+<p>The values we embrace to accomplish our mission are represented in four tenets:</p><br>
+<div id="values">
+<ul>
+  <li style="color:rgb(231, 92, 115)"><i class="far fa-thumbs-up"></i>  Quality</li>
+  <li style="color:blue"><i class="fas fa-balance-scale"></i> Ethic</li>
+  <li style="color:orange"><i class="fas fa-exclamation-triangle"></i> Safety</li>
+  <li style="color:darkblue"><i class="fas fa-project-diagram"></i> Innovation</li>
+</ul>
+</div>
+      </section>
+      
+            <section id="catalogue" >
+              <div id="empty-container"></div>
+              <h1 class="section-title">CATALOGUE</h1>
+            <ul class="catalogue-list">
+              <li class="catalogue-item"><p class="catalogue-name">Gate valve</p> <img class="catalogue-img" src="https://media.istockphoto.com/id/544989856/es/foto/de-gas-y-petr%C3%B3leo-tubos-de-v%C3%A1lvulas.jpg?s=1024x1024&w=is&k=20&c=OPBq7fn1WccSpy7s7b-WQmmG82b0Zch_Q9O73Ea7BfE="><span>$300</span><p>Standard (Flanged)</p></li>
+              <li class="catalogue-item"><p class="catalogue-name">Ball valve </p><img class="catalogue-img" src="https://media.istockphoto.com/id/502393088/es/foto/v%C3%A1lvula-de-bola-con-mango-rojo.jpg?s=1024x1024&w=is&k=20&c=kxfP9cEbqLuUMsowOWaZT9qw46HN9Bya_aL5TaX5E6Q="><span>$396</span><p>Standard (Threaded)</p></li>
+              <li class="catalogue-item"><p class="catalogue-name">Butterfly valve </p><img class="catalogue-img" src="https://media.istockphoto.com/id/1136433122/es/foto/v%C3%A1lvula-de-mariposa-aislada-sobre-fondo-blanco-v%C3%A1lvula-manual.jpg?s=1024x1024&w=is&k=20&c=U5Dsbj8mw7vFk8LN4Ni1QU0fqRJvgX9-N0HSA2S_sXI="><span>$5,000</span><p>Gear operator handle</p></li>
+            </ul>
+            </section>
+      <section id="how-it-works">
+        <div id="empty-container"></div>
+        <h1 class="section-title">HOW IT WORKS</h1>
+      <figure><iframe id="video" width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY" >
+</iframe>
+<figcaption>Test: Due to unavailability to embed a video on valves </figcaption>
+</figure>
+</section>
+            <section id="contact-us">
+              <div id="empty-container"></div>
+              <h1 class="section-title">CONTACT US</h1>
+            <form id="form" method="post" action='https://www.freecodecamp.com/email-submit'>
+            <label for="email">Email  <input type="email" id="email" name="email" placeholder="Enter your email" required></label>
+            <input id="submit" type="submit" value="Get started">
+            </form>
+            </section>
+      <footer>
+<p class="footer">        <a class="footer" href=""  target="_blank">Privacy</a> 
+        <a class="footer" href=""  target="_blank">Terms</a> 
+        <a class="footer" href=""  target="_blank">Contact</a></p>
+        <p class="footer" >Copyright 2024, Vanne</p>
+      </footer>
+      </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+  --footer-height: 15vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  background: rgb(231, 225, 225);
+}
+
+main {
+  width: 80vw;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1:not(#web-header) {
+  background: rgba(128, 128, 128, 0.402);
+  margin: 20px auto;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: normal;
+}
+
+ul, header,#head-img-name, .catalogue-item, form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section:not(#home, #contact-us, #catalogue) {
+  height: 100vh;
+}
+
+/* HEADER */
+header {
+  background: green;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 7px;
+}
+
+header * {
+  color: white;
+}
+
+#header-img {
+  width: 70px;
+  height: 50px;
+  border-radius: 40%;
+}
+
+#head-img-name {
+  margin-left: 10px;
+  column-gap: 8px;
+}
+
+#web-header {
+  margin-top: 5px;
+}
+
+#nav-bar{
+  margin-right: 10px;
+}
+
+header ul li a {
+  display: block;
+  font-weight: normal;
+  padding: 10px;
+}
+
+header ul li a:hover {
+  background: white;
+  color: green;
+  border-radius: 2px;
+}
+
+#empty-container {
+  height: 10vh;
+}
+
+
+/* HOME */
+.home-img {
+  width: 60%;
+  height: 60vh;
+}
+
+
+/* ABOUT US */
+#values {
+margin: auto;
+}
+
+#values ul {
+  justify-content: space-evenly;
+  column-gap: 30px;
+  font-size: 2rem;
+  height: 40vh;
+  align-content: center;
+  background: white;
+}
+
+/* CATALOGUE */
+.catalogue-img {
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+}
+
+.catalogue-list {
+  justify-content: space-around;
+}
+
+.catalogue-item {
+  flex-direction: column;
+  row-gap: 30px;
+  font-size: 1.3rem;
+}
+
+/* HOW IT WORKS */
+figure {
+  margin-top: 10vh;
+}
+
+figcaption {
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+iframe {
+  width: 50%;
+}
+
+/* CONTACT */
+#contact-us {
+  height: calc(100vh - var(--footer-height));
+}
+
+form {
+flex-direction: column;
+row-gap: 30px;
+margin: 40px auto;
+} 
+
+#email {
+ margin-left: 30px;
+ height: 30px;
+ width: 260px;
+} 
+
+#submit {
+  background: green;
+  color: white;
+  width: 130px;
+  height: 80px;
+  margin: auto;
+  font-size: inherit;
+  
+}
+
+/* FOOTER */
+footer {
+  height: var(--footer-height);
+  border-top: rgba(128, 128, 128, 0.402) solid 3px;
+}
+
+.footer {
+  margin-top: 9px;
+}
+
+/* QUERY */
+@media only screen and (max-width: 900px) {
+#empty-container {
+    height: 9vh;
+}
+header ul li a {
+  font-size: 0.8rem;
+}
+}
+
+@media only screen and (max-width: 772px) {
+  #empty-container {
+    height: 11vh;
+}
+header ul li a {
+  font-size: 0.6rem;
+}
+}
+
+@media only screen and (max-width: 776px) {
+ 
+  #empty-container {
+    height: 12vh;
+}
+
+html {
+  font-size: 1rem;
+}
+}
+
+** end of undefined **
+

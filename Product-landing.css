@@ -1,0 +1,224 @@
+:root {
+    --footer-height: 15vh;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgb(231, 225, 225);
+  }
+  
+  main {
+    width: 80vw;
+    margin: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  h1:not(#web-header) {
+    background: rgba(128, 128, 128, 0.402);
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-weight: normal;
+  }
+  
+  ul, header,#head-img-name, .catalogue-item, form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section:not(#home, #contact-us, #catalogue) {
+    height: 100vh;
+  }
+  
+  /* HEADER */
+  header {
+    background: green;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 7px;
+  }
+  
+  header * {
+    color: white;
+  }
+  
+  #header-img {
+    width: 70px;
+    height: 50px;
+    border-radius: 40%;
+  }
+  
+  #head-img-name {
+    margin-left: 10px;
+    column-gap: 8px;
+  }
+  
+  #web-header {
+    margin-top: 5px;
+  }
+  
+  #nav-bar{
+    margin-right: 10px;
+  }
+  
+  header ul li a {
+    display: block;
+    font-weight: normal;
+    padding: 10px;
+  }
+  
+  header ul li a:hover {
+    background: white;
+    color: green;
+    border-radius: 2px;
+  }
+  
+  #empty-container {
+    height: 10vh;
+  }
+  
+  
+  /* HOME */
+  .home-img {
+    width: 60%;
+    height: 60vh;
+  }
+  
+  
+  /* ABOUT US */
+  #values {
+  margin: auto;
+  }
+  
+  #values ul {
+    justify-content: space-evenly;
+    column-gap: 30px;
+    font-size: 2rem;
+    height: 40vh;
+    align-content: center;
+    background: white;
+  }
+  
+  /* CATALOGUE */
+  .catalogue-img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+  }
+  
+  .catalogue-list {
+    justify-content: space-around;
+  }
+  
+  .catalogue-item {
+    flex-direction: column;
+    row-gap: 30px;
+    font-size: 1.3rem;
+  }
+  
+  /* HOW IT WORKS */
+  figure {
+    margin-top: 10vh;
+  }
+  
+  figcaption {
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  
+  iframe {
+    width: 50%;
+  }
+  
+  /* CONTACT */
+  #contact-us {
+    height: calc(100vh - var(--footer-height));
+  }
+  
+  form {
+  flex-direction: column;
+  row-gap: 30px;
+  margin: 40px auto;
+  } 
+  
+  #email {
+   margin-left: 30px;
+   height: 30px;
+   width: 260px;
+  } 
+  
+  #submit {
+    background: green;
+    color: white;
+    width: 130px;
+    height: 80px;
+    margin: auto;
+    font-size: inherit;
+    
+  }
+  
+  /* FOOTER */
+  footer {
+    height: var(--footer-height);
+    border-top: rgba(128, 128, 128, 0.402) solid 3px;
+  }
+  
+  .footer {
+    margin-top: 9px;
+  }
+  
+  /* QUERY */
+  @media only screen and (max-width: 900px) {
+  #empty-container {
+      height: 9vh;
+  }
+  header ul li a {
+    font-size: 0.8rem;
+  }
+  }
+  
+  @media only screen and (max-width: 772px) {
+    #empty-container {
+      height: 11vh;
+  }
+  header ul li a {
+    font-size: 0.6rem;
+  }
+  }
+  
+  @media only screen and (max-width: 776px) {
+   
+    #empty-container {
+      height: 12vh;
+  }
+  
+  html {
+    font-size: 1rem;
+  }
+  }
